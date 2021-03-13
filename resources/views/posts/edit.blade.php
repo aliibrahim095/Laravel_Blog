@@ -6,7 +6,7 @@
 {{--            'id' => 1, 'title' => 'Laravel', 'description' => 'Show Post Description', 'posted_by' => 'Aly', 'created_at' => '2021-03-13']--}}
             <div class="col-md-12 col-md-offset-2  mt-5">
 
-                    <form action="" method="POST">
+                    <form method="PATCH" action="{{route('posts.update',['post_id'=>$post['id']])}}">
 
                     <div class="form-group">
                         <label for="slug">Title</label>
@@ -25,9 +25,9 @@
                     </div>
 
                     <div class="form-group mt-2">
-                        <a href="{{route('posts.index')}}" class="btn btn-primary mt-2">
+                        <button type="submit" class="btn btn-primary mt-2">
                             Update
-                        </a>
+                        </button>
                     </div>
 
                 </form>

@@ -34,4 +34,21 @@ class PostController extends Controller
         return view('posts.create');
     }
 
+    //create function to destroy a  post
+    public function destroy($post_id){
+        //logic to destroy from database
+        return redirect()->route('posts.index');
+    }
+
+    //create store post in database
+    public function store(){
+        //logic to store in the database
+        return redirect()->route('posts.index');
+    }
+
+    //create function to  update post in the database
+    public function update($post_id){
+        //logic to update in the database
+        return redirect()->route('posts.index');
+    }
 }
