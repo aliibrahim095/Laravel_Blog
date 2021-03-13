@@ -26,7 +26,7 @@
 
                     <div class="form-group mt-2">
                         <a href="{{route('posts.index')}}" class="btn btn-primary mt-2">
-                            Update
+                            Create
                         </a>
                     </div>
 
