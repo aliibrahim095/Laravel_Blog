@@ -14,8 +14,7 @@ class PostController extends Controller
             ['id' => 3, 'title' => 'HTML5', 'description' => 'HTML5 is a web application Front-end technology', 'posted_by' => 'Ahmed', 'created_at' => '2021-03-20'],
             ['id' => 4, 'title' => 'JavaScript', 'description' => 'JavaScript is a web application Front-end technology', 'posted_by' => 'Khaled', 'created_at' => '2021-04-21'],
             ['id' => 5, 'title' => 'JQuery', 'description' => 'JQuery is a web application Front-end technology', 'posted_by' => 'Omar', 'created_at' => '2021-06-25'],
-            ['id' => 6, 'title' => 'CSS', 'description' => 'CSS is a web application Front-end technology', 'posted_by' => 'Mohamed', 'created_at' => '2021-07-21'],
-            ['id' => 7, 'title' => 'Bootstrap', 'description' => 'Bootstrap is a web application Front-end technology', 'posted_by' => 'Youssef', 'created_at' => '2021-01-25']
+            ['id' => 6, 'title' => 'CSS', 'description' => 'CSS is a web application Front-end technology', 'posted_by' => 'Mohamed', 'created_at' => '2021-07-21']
         ];
         return view('posts.index',
             ['posts'=>$posts]);

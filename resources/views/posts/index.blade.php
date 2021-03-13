@@ -4,9 +4,11 @@
     <div class="text-center">
     <a href="{{route('posts.create')}}" class="btn btn-success p-2 mt-3">Create Post</a>
     </div>
+    <div class="container-fluid">
     <div class="row justify-content-center">
-        <div class="col-8">
-            <table class="table table-responsive mt-3">
+        <div class="col-10">
+
+            <table class="table table-responsive border table-hover mt-5">
                     <thead>
                     <tr>
                         <th class="w-25" scope="col">#</th>
@@ -33,5 +35,6 @@
                     </tbody>
             </table>
         </div>
+    </div>
     </div>
 @endsection
