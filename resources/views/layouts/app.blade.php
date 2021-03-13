@@ -6,6 +6,21 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Laravel</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+    <style>
+        .require {
+            color: #666;
+        }
+        label small {
+            color: #999;
+            font-weight: normal;
+        }
+        .card {
+            margin: 0 auto; /* Added */
+            float: none; /* Added */
+            margin-bottom: 10px; /* Added */
+        }
+    </style>
 </head>
 <body>
 <!-- As a link -->
