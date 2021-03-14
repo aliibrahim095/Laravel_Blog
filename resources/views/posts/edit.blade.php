@@ -6,8 +6,9 @@
 {{--            'id' => 1, 'title' => 'Laravel', 'description' => 'Show Post Description', 'posted_by' => 'Aly', 'created_at' => '2021-03-13']--}}
             <div class="col-md-12 col-md-offset-2  mt-5">
 
-                    <form method="PATCH" action="{{route('posts.update',['post_id'=>$post['id']])}}">
-
+                    <form method="POST" action="{{route('posts.update',['post_id'=>$post['id']])}}">
+                    @csrf
+                    {{method_field('PUT')}}
                     <div class="form-group">
                         <label for="slug">Title</label>
                         <input type="text" class="form-control mt-2" name="slug" placeholder="Laravel Framework" value="{{$post['title']}}"/>
@@ -35,6 +36,10 @@
 
         </div>
     </div>
+<pre>
 
+
+
+</pre>
 
 @endsection

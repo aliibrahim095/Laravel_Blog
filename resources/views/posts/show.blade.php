@@ -22,4 +22,9 @@
                 <h6 class="card-title">Created At:- {{$post['created_at']}}</h6>
             </div>
         </div>
+
+    <pre>
+
+
+    </pre>
 @endsection
