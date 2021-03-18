@@ -16,9 +16,11 @@
             <div class="card-header">
                 Post Creator Info
             </div>
+{{--            {{dd($post)}}--}}
+{{--            {{dd($post->user->name)}}--}}
             <div class="card-body">
-                <h6 class="card-title">Name:- {{$post['posted_by']}}</h6>
-                <h6 class="card-title">Email:- {{$post['posted_by']}}@yahoo.com</h6>
+                <h6 class="card-title">Name:- {{$post->user->name}}</h6>
+                <h6 class="card-title">Email:- {{$post->user->email}}@yahoo.com</h6>
                 <h6 class="card-title">Created At:- {{$post['created_at']}}</h6>
             </div>
         </div>
